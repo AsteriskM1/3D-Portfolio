@@ -11,7 +11,6 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   nextjs,
@@ -20,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  tripguide,
   hoobank,
   gpt,
+  metaversus,
   threejs,
 } from "../assets";
 
@@ -199,42 +198,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Hoobank",
-    description:
-      "Developed a visually stunning and contemporary landing page with responsive design for the fictional company, Hoobank.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: hoobank,
-    source: "https://hoobank-m1.netlify.app/",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GPT-3",
-    description:
-      "Created a sleek, modern, and visually appealing landing page with responsive design for GPT-3.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gpt,
-    source: "https://gpt3-m1.netlify.app/",
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Metaversus",
     description:
       "Created a captivating and immersive website, Metaversus, with animation to make the site look alive and beautiful.",
@@ -252,9 +215,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: gpt,
-    source: "https://github.com/AsteriskM1/metaversus",
+    image: metaversus,
+    source: "https://metaversus-ten-gamma.vercel.app/",
     source_code_link: "https://github.com/AsteriskM1/metaversus",
+  },
+  {
+    name: "Hoobank",
+    description:
+      "Developed a visually stunning and contemporary landing page with responsive design for the fictional company, Hoobank.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hoobank,
+    source: "https://hoobank-m1.netlify.app/",
+    source_code_link: "https://github.com/AsteriskM1/Hoobank",
+  },
+  {
+    name: "GPT-3",
+    description:
+      "Created a sleek, modern, and visually appealing landing page with responsive design for GPT-3.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gpt,
+    source: "https://gpt3-m1.netlify.app/",
+    source_code_link: "https://github.com/AsteriskM1/GPT-3",
   },
 ];
 

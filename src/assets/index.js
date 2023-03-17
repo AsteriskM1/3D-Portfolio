@@ -31,6 +31,7 @@ import tesla from "./company/tesla.png";
 
 import hoobank from "./hoobank.png";
 import gpt from "./gpt3.png";
+import metaversus from "./metaversus.png"
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tesla,
   hoobank,
   gpt,
+  metaversus,
 };
