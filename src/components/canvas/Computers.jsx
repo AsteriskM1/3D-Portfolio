@@ -1,7 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
-import CanvasLoader from '../Loader';
+import Loader from '../Loader';
 
 
 const Computers = ({ isMobile }) => {
@@ -58,7 +58,7 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense fallback={<Loader />}>
         <OrbitControls 
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

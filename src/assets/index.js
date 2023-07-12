@@ -31,7 +31,9 @@ import tesla from "./company/tesla.png";
 
 import hoobank from "./hoobank.png";
 import gpt from "./gpt3.png";
-import metaversus from "./metaversus.png"
+import metaversus from "./metaversus.png";
+import outerworld from "./outerworld.png";
+import promptopia from "./promptopia.png";
 
 export {
   logo,
@@ -65,4 +67,6 @@ export {
   hoobank,
   gpt,
   metaversus,
+  outerworld,
+  promptopia,
 };

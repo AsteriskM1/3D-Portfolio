@@ -23,6 +23,8 @@ import {
   gpt,
   metaversus,
   threejs,
+  promptopia,
+  outerworld,
 } from "../assets";
 
 export const navLinks = [
@@ -198,6 +200,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "OuterWorld",
+    description:
+    "Developed a visually stunning and contemporary landing page with responsive design of a space tourism website.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: outerworld,
+    source: "https://outer-world.vercel.app/",
+    source_code_link: "https://github.com/AsteriskM1/OuterWorld",
+  },
+  {
     name: "Metaversus",
     description:
       "Created a captivating and immersive website, Metaversus, with animation to make the site look alive and beautiful.",
@@ -220,12 +244,12 @@ const projects = [
     source_code_link: "https://github.com/AsteriskM1/metaversus",
   },
   {
-    name: "Hoobank",
+    name: "Promptopia",
     description:
-      "Developed a visually stunning and contemporary landing page with responsive design for the fictional company, Hoobank.",
+      "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -233,27 +257,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: hoobank,
-    source: "https://hoobank-m1.netlify.app/",
-    source_code_link: "https://github.com/AsteriskM1/Hoobank",
-  },
-  {
-    name: "GPT-3",
-    description:
-      "Created a sleek, modern, and visually appealing landing page with responsive design for GPT-3.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gpt,
-    source: "https://gpt3-m1.netlify.app/",
-    source_code_link: "https://github.com/AsteriskM1/GPT-3",
+    image: promptopia,
+    source: "https://promptopia-pink.vercel.app/",
+    source_code_link: "https://github.com/AsteriskM1/promptopia",
   },
 ];
 
